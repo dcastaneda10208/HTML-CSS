@@ -1,0 +1,87 @@
+body {
+    background: #fff7e5;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1  {
+    font-size: 4em;
+    padding: 0px; 
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#container {
+    width: 810px;
+    min-height: 500px;
+    margin: 5px auto;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #1f2e2e;
+    color: #fff7e5;
+}
+
+nav > ul > li {
+    float: left;
+}
+
+nav ul:after {
+    content: "";
+    display: block;
+    clear: both;
+    color: #fff7e5;
+}
+
+nav ul li:hover {
+    background: #85adad;
+    color: #fff7e5;
+}
+
+nav ul li:hover >ul {
+    display: block;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #fff7e5;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 125px;
+}
+
+nav ul li a:hover {
+    background: #85adad;
+    color: #fff7e5;
+    text-decoration: underline;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    background: rgba(86, 67, 87, .8);
+    color: #fff7e5;
+}
+
+nav > ul {
+    padding-left: 35px;
+}
+
+nav > ul > li {
+    float: left;
+}
+
+nav > ul > li > a {
+    padding: 10px 20px 15px 20px;
+    width: auto;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.invisible {
+    visibility: hidden;
+}

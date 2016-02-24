@@ -1,0 +1,50 @@
+body {
+    background: #FFEBCD;
+    font-family: arial, helvetica, sans-serif;
+}
+
+#container {
+    width: 900px;
+    min-height: 600px;
+    margin: 5px auto;
+    color: #B22222;
+}
+
+header,
+footer,
+aside,
+article,
+main {
+    padding: 1px;
+}
+
+h1 {
+    font-weight: 800;
+    text-shadow: 2px 2px gray;
+}
+
+header {
+    font-size: 25px; 
+}
+
+p {
+    color: black;
+}
+
+aside {
+    width: 25%;
+    clear: both;
+    float: right;
+    border-left: 2px solid;
+    padding-left: 15px;
+    min-height: 980px;
+    margin-left: 15px;
+}
+
+ul {
+    color: black;
+}
+
+#toby {
+    height:240px;
+}

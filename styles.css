@@ -1,0 +1,31 @@
+body {
+    background: #2F4F4F;
+    font-family: arial, helvetica, sans-serif; 
+}
+
+#container {
+    background: #FDF5E6;
+    color: #2F4F4F;
+    width: 800px;
+    min-height: 400px;
+    margin: 5px auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+h1 {
+    padding: 10px;
+
+}
+
+main {
+    min-height: 300px;
+}
+
+footer {
+    padding: 10px;
+}

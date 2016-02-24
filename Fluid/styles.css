@@ -1,0 +1,163 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    background-color: #e5ccb3;
+    color: #cc0000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin-top: 0;
+    margin-bottom: 0.3em;
+    font-size: 4em;
+    text-shadow: 1px 1px 1px  #4d0000;
+    font-family: 'Merriweather', serif;
+}
+
+h2 { 
+    font-family: 'Merriweather', serif;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    background: #4d0000;
+    color: cornsilk;
+    padding: 3px 5px;
+    border: 3px solid transparent;
+    border-radius: 5px;
+    margin: 5px;
+    font-family: 'Merriweather', serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+nav a.current {
+    background: #cc0000;
+}
+
+nav a:hover {
+    background: #cc0000;
+}
+
+.container {
+    max-width: 80em;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 140%;
+    font-family: 'Merriweather', serif;
+    margin: 50px;
+    color: black;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    color: #cc0000;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: '';
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    width: 100%;
+    display: block;
+}
+
+.float-grid figure {
+    width: 25%;
+    float: left;
+    margin: 0;
+}
+
+.float-grid figure:nth-of-type(4n+1) {
+    clear: left;
+}
+
+
+.column-grid .gallery {
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    columns: 3;
+    margin: 1%;
+}
+
+.column-grid figure {
+    margin: 0 0 20px;
+    width: 100%;
+}
+
+.column-grid figure img {
+    border: 15px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+}
+
+
+.caption-grid .gallery {
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    columns: 3;
+}
+
+.caption-grid figure {
+    margin: 0 0 20px;
+    width: 100%;
+    position: relative;
+}
+
+.caption-grid figcaption {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 0 5px 5px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+.caption-grid figure img {
+    border-width: 5px 5px 0;
+}
+
+.caption-grid figcaption,
+.caption-grid figure img {
+    border-style: solid;
+    border-color: #fff;
+    box-sizing: border-box;
+}
